@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Recommendation System</h1>
+        <form id="jobForm" action="/recommend" method="post">
+            <input type="text" name="skills" placeholder="Enter your skills..." required>
+            <button type="submit">Find Jobs</button>
+        </form>
+    </div>
+</body>
+</html>

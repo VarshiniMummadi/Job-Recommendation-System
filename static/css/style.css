@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main box */
+.container {
+    background: white;
+    padding: 30px;
+    margin: 100px auto;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Main heading */
+h1 {
+    color: #4b0082;
+    font-size: 32px;
+}
+
+/* Skills text */
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Job title */
+h3 {
+    color: #007BFF;
+    font-size: 20px;
+}
+
+/* Input box */
+input {
+    padding: 12px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    background: #ff7a18;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background: #ff5200;
+}
+
+/* Job result cards */
+li {
+    background: #f0f4ff;
+    margin: 12px;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid #667eea;
+}
+
+/* Link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: #28a745;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+a:hover {
+    background: #1e7e34;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommended Jobs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recommended Jobs</h1>
+        <p>Your Skills: {{ skills }}</p>
+        <ul>
+            {% for job in jobs %}
+            <li>
+                <h3>{{ job.title }}</h3>
+                <p>Required Skills: {{ job.skills }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="/">Search Again</a>
+    </div>
+</body>
+</html>
